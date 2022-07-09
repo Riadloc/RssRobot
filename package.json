@@ -1,0 +1,35 @@
+{
+  "name": "rssrobot",
+  "version": "1.0.0",
+  "description": "dingding rss robot",
+  "main": "dist/app.js",
+  "module": "app.ts",
+  "scripts": {
+    "dev": "ts-node app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riadloc/RssRobot.git"
+  },
+  "keywords": [
+    "robot",
+    "dingding",
+    "rss"
+  ],
+  "author": "Riadloc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riadloc/RssRobot/issues"
+  },
+  "homepage": "https://github.com/Riadloc/RssRobot#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "1.0.0-rc.12"
+  }
+}
