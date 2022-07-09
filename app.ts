@@ -10,7 +10,7 @@ import axios from 'axios'
     msgtype: 'markdown',
     markdown: {
       title,
-      text: [`## ${title}`, contents.map((item, index) => `${index+1}. ${item}`)].join('\n'),
+      text: [`## ${title}`, ...contents.map((item, index) => `${index+1}. ${item}`)].join('\n'),
     },
   })
 })()
